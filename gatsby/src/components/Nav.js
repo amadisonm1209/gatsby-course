@@ -38,6 +38,7 @@ const NavStyles = styled.nav`
     a {
             font-size: 3rem;
             text-decoration: none;
+            display: block;
             &:hover {
                 color: var(--red);
             }
@@ -62,7 +63,7 @@ export default function Nav() {
                     <Link to="/"> <Logo /> </Link>
                 </li>
                 <li>
-                    <Link to="/slicemasters">Slice Masters</Link>
+                    <Link to="/slicemasters">Slicemasters</Link>
                 </li>
                 <li>
                     <Link to="/order">Order Ahead</Link>
