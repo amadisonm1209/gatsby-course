@@ -15,6 +15,8 @@ const ToppingsStyles = styled.div`
         grid-template-columns: auto 1fr;
         grid-gap: 0 1rem;
         padding: 5px;
+        text-decoration: none;
+        font-size: clamp(1.5rem, 1.4vw, 2.5rem);
         .count {
             background: white;
             padding: 2px 5px;
